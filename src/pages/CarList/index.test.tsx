@@ -1,3 +1,5 @@
+/* eslint-disable testing-library/no-container */
+/* eslint-disable testing-library/no-node-access */
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { CarList } from ".";
